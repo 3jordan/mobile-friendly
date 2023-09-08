@@ -42,7 +42,7 @@
 }
 
 
-.event-content h3{
+.event-content .event-heads{
     font-size: 24px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 
-#projects li {
+#projects .project-item {
     padding: 15px;
     background-color: #fff;
     border-radius: 5px;
@@ -144,14 +144,14 @@
 }
 
 
-.navigation .list {
+.navigation-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 
-.navigation .list-item {
+.nav-menu-item {
     display: inline;
     margin-right: 20px;
 }
@@ -173,9 +173,7 @@
 }
 
 
-
-
-.header-two {
+.section-name {
     font-size: 28px;
     margin-bottom: 15px;
 }
@@ -194,7 +192,7 @@
 }
 
 
-.event img {
+.event .event-image {
     width: 20em;
     height: auto;
 }
@@ -223,7 +221,7 @@
     }
 
 
-    .header-two {
+    .section-name {
         font-size: 20px;
     }
 
@@ -239,7 +237,7 @@
     }
 
 
-    .body{
+    .main-body{
         font-size: 23px;
     }
 }
